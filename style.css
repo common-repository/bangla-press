@@ -1,0 +1,84 @@
+/* General widget styling */
+.rss-news-widget, .rss-news-title-only-widget {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+}
+
+.rss-news-title-wrapper {
+    margin-bottom: 10px;
+}
+
+
+.rss-news-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.rss-news-title a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.rss-news-title a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the RSS news items */
+.rss-news-item {
+    margin-bottom: 20px;
+}
+
+.rss-news-image-wrapper {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.rss-news-title-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+.rss-news-content {
+    padding: 10px;
+}
+
+.rss-news-description {
+    margin: 0;
+}
+
+/* Styling for the RSS title-only widget */
+.rss-news-title-only-item {
+    margin-bottom: 10px;
+}
+
+.rss-news-title-only-widget {
+    padding: 0;
+}
+
+.rss-news-title-only-item h3 {
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.rss-news-title-only-item a {
+    color: #333;
+}
+
+.rss-news-title-only-item a:hover {
+    text-decoration: underline;
+}
